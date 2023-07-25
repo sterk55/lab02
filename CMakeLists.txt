@@ -10,6 +10,7 @@ CPMAddPackage("gh:abdes/cryptopp-cmake#v8.8.0")
 
 find_package(MPI REQUIRED)
 
+
 message(STATUS "******Run: ${MPIEXEC}")
 
 add_executable(lab02 main.cpp)
